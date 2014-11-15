@@ -1,0 +1,237 @@
+
+/******GENERAL*******/
+
+
+#viewport {
+min-height: 100%;
+position: relative;
+width: 100%;
+}
+
+body {
+background: #fff;
+color: #222;
+text-align: center;
+}
+
+
+body, html {
+font-size: small;
+font-family: "Arial", sans-serif;
+}
+
+div {
+display: block;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+
+#nav {
+    text-align: right;
+    padding: 0 0 27px 27px;
+    margin: 10px 20px 10px;
+    vertical-align: middle;
+    
+}
+
+#nav ul li{
+    list-style: none;
+    padding: 3px 5px;
+    margin: auto 2px 4px;
+    vertical-align: middle;
+    display: inline-block;
+    }
+
+a visited {
+    color: #609;
+}
+
+
+ .head a {
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+}
+
+.head a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*******SIGN IN BUTTON***********/
+
+#sign-in a {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    display: block;
+    background: #4285f4;
+    display: inline-block;
+    padding: 0 13px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin: 6.5px 0;
+    line-height: 28px;
+
+}
+
+
+#sign-in a:hover {
+    text-decoration: none;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,.3); 
+} 
+
+
+
+/*********APPS*******************/
+
+#apps img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-radius: 2px;
+    opacity: 0.6;
+}
+
+#apps img:hover {
+  opacity: 0.9;
+}
+
+
+
+
+/************GOOGLE IMAGE*************/
+
+img {
+    width: 280px;
+    margin: 70px auto 0 auto;
+    display: block;
+}
+
+
+/**********INPUT**************************/
+
+input[type="text"] {
+    background: url('img/micg.gif') no-repeat 99% center;
+    width: 550px;
+    height: 23px;
+    margin: 10px 0 10px 0;
+    text-align: left;
+    border: 1px solid #cdcdcd;
+    opacity: 0.7;
+    padding: 3px;
+}
+
+
+
+input[type="text"]:hover {
+    border: 1px solid #9a9a9a;
+    
+}
+    
+
+input[type="text"]:focus {
+    border: 1px solid #4285f4;
+    box-shadow: 0px 0px 0px;
+    opacity: 0.6;
+}
+
+input[type="button"] {
+    padding: 1px 2px;
+    margin: 10px 5px 3px;
+    display: inline-block;
+    color: #222;
+    font-size: 11px ;
+    height: 25px;
+    font-weight: bold;
+
+}
+input[type="button"]:hover {
+   box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.3);
+  
+}
+
+input[type="button"]:focus {
+   border: 1px solid #9a9a9a;
+  
+}
+
+   
+
+/**************LANGUAGES******************/
+
+.lang {
+    margin-top: 3em;
+    text-align: center;
+
+}
+.lang a {
+    padding-left: 8px;
+    text-decoration: none;
+    color: #0000cd;
+}
+
+.lang a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*******FOOTER******/
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  bottom: 0;
+  padding: 13px 0 0 0; 
+  text-align: center;
+  clear: both;
+  color: #335500;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  font-size: small;
+}
+
+footer span a{
+    display: inline-block;
+    text-decoration:none;
+    color: #666;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.about a{
+    float: left;
+    padding: 0 0 0 27px;
+
+}
+.about a:hover{
+    text-decoration: underline;
+}
+
+.terms a{
+    float: right;
+    padding: 0 27px 0 0;
+
+}
+
+.terms a:hover{
+    text-decoration: underline;
+}
