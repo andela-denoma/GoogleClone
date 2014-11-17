@@ -126,11 +126,10 @@ img {
 input[type="text"] {
     background: url('img/micg.gif') no-repeat 99% center;
     width: 550px;
-    height: 23px;
+    height: 25px;
     margin: 10px 0 10px 0;
     text-align: left;
     border: 1px solid #cdcdcd;
-    opacity: 0.7;
     padding: 3px;
 }
 
